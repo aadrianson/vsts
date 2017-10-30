@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<udm.DeploymentPackage version="1" application="cmd">
+  <application />
+  <orchestrator />
+  <deployables>
+    <cmd.Command name="/command">
+      <tags />
+      <commandLine>echo running a command {{variable}}</commandLine>
+      <order>50</order>
+      <dependencies />
+      <undoOrder>49</undoOrder>
+      <undoDependencies />
+      <runUndoCommandOnUpgrade>false</runUndoCommandOnUpgrade>
+    </cmd.Command>
+  </deployables>
+  <applicationDependencies />
+  <dependencyResolution>LATEST</dependencyResolution>
+  <undeployDependencies>false</undeployDependencies>
+</udm.DeploymentPackage>
